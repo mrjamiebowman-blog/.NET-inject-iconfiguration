@@ -4,6 +4,6 @@ namespace MrJB.Sample.Api
 {
     public interface IAppService
     {
-        Task<string> GetValueAsync;
+        Task<string> GetValue2Async();
     }
 }

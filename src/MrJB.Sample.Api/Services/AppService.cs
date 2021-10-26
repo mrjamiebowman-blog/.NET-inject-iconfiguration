@@ -12,7 +12,7 @@ namespace MrJB.Sample.Api
             _configuration = configuration;
         }
 
-        public async Task<string> GetValueAsync()
+        public async Task<string> GetValue2Async()
         {
             // TODO: implement value from configuration
             return await Task.FromResult("TODO");
